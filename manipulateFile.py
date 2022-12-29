@@ -8,7 +8,7 @@
 import re
 
 fileRead=open("read.txt", "r",encoding ='utf-16')
-fileWrite=open("testWrite.txt","a")
+fileWrite=open("write.txt","a")
 
 ##print(str(len(fileRead.readlines())))
 for index in range(len(lines:=fileRead.readlines())):
